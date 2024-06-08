@@ -7,12 +7,9 @@ class myclass{
     }
 }
 
-
-
 public class practice{
     static{
         System.out.println("Hello im static");
-        
     }
     static void fun(){
         System.out.println("Im fun function");
@@ -21,11 +18,6 @@ public class practice{
        System.out.println("Inside main");       
         // myclass obj = new myclass();
        
-    }
-    
-    
-   
-
-     
+    }   
 
 }

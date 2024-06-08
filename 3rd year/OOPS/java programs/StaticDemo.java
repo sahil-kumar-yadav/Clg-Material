@@ -19,6 +19,7 @@ public class StaticDemo {
   public static void main(String ar[]) {
     StaticVariable S1 = new StaticVariable(1, "Alice");
     StaticVariable S2 = new StaticVariable(2, "Bob");
+    // System.out.println("main");
     S1.display();
     S2.display();
   }
