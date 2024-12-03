@@ -1,0 +1,16 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int a = 10;
+    // int* ptr = 0xac853ff974; // yeh nahi chllega error dega 
+    float b = 10.2;
+    int *ptr=&a;
+    // int *ptr1 = &b; // yeh error dega becuz jo type ka data hoga usi type ka pointer hona chaheye
+    cout<<ptr<<endl;
+
+    // cout<<ptr<<endl;
+    cout<<&a;
+    return 0;
+}
